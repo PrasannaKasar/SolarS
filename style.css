@@ -96,8 +96,8 @@ body {
     border-radius: 50%;
     box-shadow: 0 0 2px #FAD02E;
   }
+
   .orbit-of-saturn {
-    /* background-color: blue; */
     animation: rotate 60s linear infinite;
   }
   .saturn {
@@ -110,5 +110,45 @@ body {
     box-shadow: 0 0 2px #E3CB87;
     outline: 2px solid white;
     outline-offset: 10px;
-    border: 1px solid white;
   }
+  
+  .orbit-of-uranus {
+    animation: rotate 50s linear infinite;
+    }
+    .uranus {
+    height: 20px;
+    width: 20px;
+    background-color: lightblue;
+    position: relative;
+    margin-left: 3vh;
+    border-radius: 50%;
+    box-shadow: 0 0 3px lightblue;
+    z-index: 1;
+    }
+    
+    .orbit-of-neptune {
+    animation: rotate 65s linear infinite;
+    }
+    .neptune {
+    height: 18px;
+    width: 18px;
+    background-color: darkblue;
+    position: relative;
+    right: 2vh;
+    border-radius: 50%;
+    box-shadow: 0 0 3px darkblue;
+    }
+    
+    .orbit-of-pluto {
+    animation: rotate 75s linear infinite;
+    display: flex;
+    }
+    .pluto {
+    height: 15px;
+    width: 15px;
+    background-color: gray;
+    position: relative;
+    right: 6vh;
+    border-radius: 50%;
+    box-shadow: 0 0 3px gray;
+    }
